@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="BirdSnap.css">
+</head>
+<body>
+    <div class="screen">
+        <h1>BirdSnap</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+    <div class="screen">
+        <h1>What is your "favorite" Bird?</h1>
+        <ul class="birds-list">
+            <li>
+                <button class="choose-bird-btn">
+                    <p>Parrot</p>
+                    <img src="https://pngimg.com/uploads/parrot/parrot_PNG713.png" alt="parrot" />
+                </button>
+            </li>
+            <li>
+                <button class="choose-bird-btn">
+                    <p>Pigeon</p>
+                    <img src="https://pngimg.com/uploads/birds/birds_PNG43.png" alt="pigeon" />
+                </button>
+            </li>
+            <li>
+                <button class="choose-bird-btn">
+                    <p>Peacock</p>
+                    <img src="https://pngimg.com/uploads/peacock/small/peacock_PNG1.png" alt="peacock" />
+                </button>
+            </li>
+            <li>
+                <button class="choose-bird-btn">
+                    <p>Crow</p>
+                    <img src="https://pngimg.com/uploads/birds/small/birds_PNG37.png" alt="crow" />
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">
+            Are you annoyed yet?<br>
+            You are playing an impossible game!!
+        </h5>
+    </div>
+    <script src="BirdSnap.js"></script>
+</body>
+</html>
